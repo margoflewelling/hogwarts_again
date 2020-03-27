@@ -14,7 +14,7 @@
       <img src="./assets/0.12.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-03-27T10:35:20-06:00">2020-03-27T10:35:20-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-03-27T10:51:15-06:00">2020-03-27T10:51:15-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.18
+         1.19
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>137</b> relevant lines,
-    <span class="green"><b>137</b> lines covered</span> and
+    <b>144</b> relevant lines,
+    <span class="green"><b>144</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -84,11 +84,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#2b9c7964156cf2b5a5ddca47e7fdca9314909d19" class="src_link" title="app/controllers/professors_controller.rb">app/controllers/professors_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">11</td>
+            <td class="cell--number">12</td>
             <td class="cell--number">5</td>
             <td class="cell--number">5</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.20</td>
+            <td class="cell--number">1.40</td>
             
           </tr>
         
@@ -304,20 +304,20 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#a35b981facd5b286b660947e923a53a7d86f9310" class="src_link" title="spec/features/professors/can_see_prof_index_spec.rb">spec/features/professors/can_see_prof_index_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">17</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">10</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">14</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.21</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#b0a44847d82444a98abf41767dcf0b11b12e6fe3" class="src_link" title="spec/features/students/can_see_list_of_students_spec.rb">spec/features/students/can_see_list_of_students_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">39</td>
-            <td class="cell--number">19</td>
-            <td class="cell--number">19</td>
+            <td class="cell--number">44</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">22</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -497,13 +497,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">    @professors = Professor.all</code>
+            <code class="ruby">    @professors = Professor.order(:name)</code>
           </li>
         </div>
       
@@ -514,7 +514,7 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -525,12 +525,23 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
+          <li class="covered" data-hits="1" data-linenumber="8">
             <span class="hits">1</span>
             
 
@@ -541,7 +552,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="8">
+          <li class="covered" data-hits="2" data-linenumber="9">
             <span class="hits">2</span>
             
 
@@ -552,7 +563,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="10">
             
             
 
@@ -563,7 +574,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="11">
             
             
 
@@ -574,7 +585,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -655,7 +666,7 @@
 
             
 
-            <code class="ruby">    @students = Student.all</code>
+            <code class="ruby">    @students = Student.order(:name)</code>
           </li>
         </div>
       
@@ -3370,8 +3381,8 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>14</b> relevant lines.
+      <span class="green"><b>14</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3422,40 +3433,40 @@
 
             
 
-            <code class="ruby">  it &quot;can see an index of all professors&quot; do</code>
+            <code class="ruby">  before(:each) do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    @snape = Professor.create(name: &quot;Severus Snape&quot;, age: 45, specialty: &quot;Potions&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">    snape = Professor.create(name: &quot;Severus Snape&quot;, age: 45, specialty: &quot;Potions&quot;)</code>
+            <code class="ruby">    @lupin = Professor.create(name: &quot;Remus Lupin&quot;, age: 49 , specialty: &quot;Defense Against The Dark Arts&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">    lupin = Professor.create(name: &quot;Remus Lupin&quot;, age: 49 , specialty: &quot;Defense Against The Dark Arts&quot;)</code>
+            <code class="ruby">    visit &#39;/professors&#39;</code>
           </li>
         </div>
       
@@ -3466,29 +3477,29 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
+          <li class="covered" data-hits="1" data-linenumber="10">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    visit &#39;/professors&#39;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="10">
-            
-            
-
-            
-
-            <code class="ruby"></code>
+            <code class="ruby">  it &quot;can see an index of all professors&quot; do</code>
           </li>
         </div>
       
@@ -3499,7 +3510,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;Name: #{snape.name}&quot;)</code>
+            <code class="ruby">    expect(page).to have_content(&quot;Name: #{@snape.name}&quot;)</code>
           </li>
         </div>
       
@@ -3510,7 +3521,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;Specialty: #{snape.specialty}&quot;)</code>
+            <code class="ruby">    expect(page).to have_content(&quot;Specialty: #{@snape.specialty}&quot;)</code>
           </li>
         </div>
       
@@ -3521,7 +3532,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;Name: #{lupin.name}&quot;)</code>
+            <code class="ruby">    expect(page).to have_content(&quot;Name: #{@lupin.name}&quot;)</code>
           </li>
         </div>
       
@@ -3532,7 +3543,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;Age: #{lupin.age}&quot;)</code>
+            <code class="ruby">    expect(page).to have_content(&quot;Age: #{@lupin.age}&quot;)</code>
           </li>
         </div>
       
@@ -3543,7 +3554,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -3554,12 +3565,67 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;list of professor names is in alphabetical order&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  expect(page.all(&#39;.professor&#39;)[0]).to have_content(@lupin.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  expect(page.all(&#39;.professor&#39;)[1]).to have_content(@snape.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
             <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -3588,8 +3654,8 @@
     
 
     <div class="t-line-summary">
-      <b>19</b> relevant lines.
-      <span class="green"><b>19</b> lines covered</span> and
+      <b>22</b> relevant lines.
+      <span class="green"><b>22</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3893,40 +3959,40 @@
 
             
 
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="28">
-            
-            
-
-            
-
-            <code class="ruby">end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
-            
-
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="30">
+          <li class="covered" data-hits="1" data-linenumber="28">
+            <span class="hits">1</span>
             
+
+            
+
+            <code class="ruby">    expect(page.all(&#39;.students&#39;)[0]).to have_content(malfoy.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    expect(page.all(&#39;.students&#39;)[1]).to have_content(harry.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="30">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page.all(&#39;.students&#39;)[2]).to have_content(longbottom.name)</code>
           </li>
         </div>
       
@@ -3948,7 +4014,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -3959,7 +4025,7 @@
 
             
 
-            <code class="ruby">#</code>
+            <code class="ruby">end</code>
           </li>
         </div>
       
@@ -3970,7 +4036,7 @@
 
             
 
-            <code class="ruby"># User Story 3 of 4</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -3981,7 +4047,7 @@
 
             
 
-            <code class="ruby"># As a visitor,</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -3992,7 +4058,7 @@
 
             
 
-            <code class="ruby"># When I visit &#39;/students&#39;</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4003,7 +4069,7 @@
 
             
 
-            <code class="ruby"># I see a list of students and the number of professors each student has.</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4014,12 +4080,67 @@
 
             
 
-            <code class="ruby"># (e.g. &quot;Draco Malfoy: 5&quot;</code>
+            <code class="ruby">#</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby"># User Story 3 of 4</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="40">
+            
+            
+
+            
+
+            <code class="ruby"># As a visitor,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby"># When I visit &#39;/students&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="42">
+            
+            
+
+            
+
+            <code class="ruby"># I see a list of students and the number of professors each student has.</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby"># (e.g. &quot;Draco Malfoy: 5&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
             
             
 

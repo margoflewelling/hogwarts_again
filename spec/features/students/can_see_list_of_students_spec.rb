@@ -24,6 +24,11 @@ RSpec.describe "as a visitor", type: :feature do
     expect(page).to have_content("#{malfoy.name}: 2")
     expect(page).to have_content("#{longbottom.name}: 1")
 
+
+    expect(page.all('.students')[0]).to have_content(malfoy.name)
+    expect(page.all('.students')[1]).to have_content(harry.name)
+    expect(page.all('.students')[2]).to have_content(longbottom.name)
+
   end
 end
 
