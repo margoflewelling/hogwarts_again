@@ -18,16 +18,22 @@ RSpec.describe "as a visitor", type: :feature do
     ProfessorStudent.create(student: malfoy, professor: lupin)
     ProfessorStudent.create(student: longbottom, professor: snape)
 
-    visit "/professors/#{snape.id}"
+    visit "/students"
 
-    expect(page).to have_content(harry.name)
-    expect(page).to have_content(longbottom.name)
-    expect(page).to_not have_content(malfoy.name)
-
-    visit "/professors/#{lupin.id}"
-
-    expect(page).to have_content(harry.name)
-    expect(page).to have_content(malfoy.name)
+    expect(page).to have_content("#{harry.name}: 3")
+    expect(page).to have_content("#{malfoy.name}: 2")
+    expect(page).to have_content("#{longbottom.name}: 1")
 
   end
 end
+
+
+
+
+#
+# User Story 3 of 4
+# As a visitor,
+# When I visit '/students'
+# I see a list of students and the number of professors each student has.
+# (e.g. "Draco Malfoy: 5"
+#       "Nymphadora Tonks: 10")
