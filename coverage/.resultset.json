@@ -207,12 +207,34 @@
           1,
           null,
           1,
+          1,
           null
         ]
       },
       "/Users/owner/turing/mod2/challanges/hogwarts_again/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/owner/turing/mod2/challanges/hogwarts_again/spec/features/professors/can_see_prof_index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -297,7 +319,6 @@
         "lines": [
           1,
           1,
-          null,
           1,
           1,
           null,
@@ -313,6 +334,11 @@
           1,
           null,
           null,
+          1,
+          2,
+          2,
+          null,
+          null,
           null
         ]
       },
@@ -324,6 +350,6 @@
         ]
       }
     },
-    "timestamp": 1585322824
+    "timestamp": 1585324532
   }
 }
